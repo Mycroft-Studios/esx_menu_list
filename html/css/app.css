@@ -11,6 +11,7 @@
 .menu {
 	font-family: bankgothic;
 	position: absolute;
+	color: #fff;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
@@ -31,7 +32,7 @@
 }
 
 .menu>table>thead {
-	background-color: #506be6;
+	background-color: #4682B4;
 	text-align: center;
 	height: 40px;
 	line-height: 40px;
@@ -44,9 +45,12 @@
 }
 
 .menu tbody tr:nth-child(even) {
-	background: #CCC
+	color: #fff;
+	font-size: 20px;
+	background:rgba(60, 60, 60, 1);
 }
 
 .menu tbody tr:nth-child(odd) {
-	background: #FFF
+	color: #fff;
+	background: rgba(40, 40, 40, 1);
 }
